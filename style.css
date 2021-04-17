@@ -13,12 +13,10 @@
 
 #whatwedo {
     color:rgb(0, 0, 0);
-    font-family: Calibri;
 }
 
 #moreaboutus {
     color:rgb(0, 0, 0);
-    font-family: Calibri;
 }
 
 
@@ -40,10 +38,17 @@ h3 {
     font-family: 'Arial Black';
 }
 
+h4 {
+    color: black;
+    font-family: 'Arial Black';
+}
+
 p {
     font-size: 12px;
+    font-family: Calibri;
 }
 
 ul {
     font-size: 12px;
+    font-family: Calibri;
 }
