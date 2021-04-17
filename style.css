@@ -1,0 +1,29 @@
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#header {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+
+#whatwedo {
+    color:rgb(0, 0, 0);
+    font-family: Calibri;
+}
+
+#moreaboutus {
+    color:rgb(0, 0, 0);
+    font-family: Calibri;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Calibri;
+}
