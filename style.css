@@ -26,8 +26,11 @@
 
 h1 {
     color: rgb(0, 0, 0);
-    font-size: 40px;
-    font-family: Impact;
+    font-size: 42px;
+    font-family: 'Arial Black';
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
 }
 
 h2 {
@@ -55,4 +58,22 @@ p {
 ul {
     font-size: 12px;
     font-family: Calibri;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+@keyframes test {
+    from {color: rgb(231, 0, 0);}
+    to {color: rgb(117, 0, 117);}
 }
