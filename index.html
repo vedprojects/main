@@ -23,6 +23,13 @@
         </center>
         <br>
         <center>
+            <button class="button button1" onclick="myFunction()">Toggle dark mode</button>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
             <button class="button button4" onclick="window.location.href='index.html'">Home Page</button>    
             <button class="button button2" onclick="window.location.href='contact.html'"> Contact Page </button>
         </center>
