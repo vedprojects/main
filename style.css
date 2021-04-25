@@ -77,3 +77,90 @@ ul {
     from {color: rgb(231, 0, 0);}
     to {color: rgb(117, 0, 117);}
 }
+
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.button1 {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+    font-size: 14px;
+    color: black;
+    background-color: rgb(170, 0, 0);
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button3 {
+    font-size: 14px;
+    color: black;
+    background-color: rgb(0, 106, 192);
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button4 {
+    font-size: 14px;
+    color: black;
+    background-color: rgb(0, 170, 133);
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    background-color: #c300ff; /* Purple */
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button3:hover {
+    background-color: #c300ff; /* Purple */
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.button4:hover {
+    background-color: #c300ff; /* Purple */
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
