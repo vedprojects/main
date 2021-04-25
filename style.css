@@ -15,22 +15,20 @@ body {
 }
 
 #header {
-    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Arial Black';
 }
 
 
 #whatwedo {
-    color:rgb(0, 0, 0);
+    font-family: 'Arial Black';
 }
 
 #moreaboutus {
-    color:rgb(0, 0, 0);
+    font-family: 'Arial Black';
 }
 
 #footer {
-    color:rgb(0, 0, 0);
     font-family: Helvetica;
 }
 
