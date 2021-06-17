@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    color: white;
+    background: #0d0f1b;
+}
+
+h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    line-height: 0.5;
+}
+
+#whatwedo {
+    font-family: 'Arial Black';
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
