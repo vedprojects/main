@@ -7,10 +7,10 @@
 
 html {
     font-family: 'Inter', sans-serif;
+    
 }
 
 body {
-    background: #0d0f1b;
     font-family: 'Inter', sans-serif;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 h1 {
-    color: white;
+    
     font-family: 'Inter', sans-serif;
     font-size: 3em;
     text-align: center;
@@ -52,9 +52,6 @@ h1 {
 }
 
 
-h2, h3, h4, h5, h6, p {
-    color: white;
-}
 
 
 p {
@@ -185,7 +182,6 @@ ul {
 }
 
 .dark-mode {
-    background-color: black;
-    color: black;
-    background: white
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }

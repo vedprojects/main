@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
+    background: #0d0f1b;
     overflow-x:hidden;
     line-height:1.5;
     font-family: 'Inter', sans-serif;
@@ -12,25 +13,28 @@ body {
 
 
 h1 {
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     line-height: 0.01;
     
 }
 
+
+
+
 h2 {
+    color: white;
     font-family: 'Inter', sans-serif;
-    padding-left: 5%;
     font-weight: 600;
-    font-size: 22px;
 }
 
 p {
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 14px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
