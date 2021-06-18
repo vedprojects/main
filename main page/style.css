@@ -5,11 +5,13 @@
 
 
 
-
+html {
+    font-family: 'Inter', sans-serif;
+}
 
 body {
     background: #0d0f1b;
-    color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -27,45 +29,33 @@ body {
 
 #header {
     font-size: 30px;
-    font-family: 'Arial Black';
+    font-family: 'Inter', sans-serif;
 }
 
 
 
 
 #moreaboutus {
-    font-family: 'Arial Black';
+    font-family: 'Inter', sans-serif;
 }
 
 #footer {
-    font-family: Helvetica;
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
-    font-size: 42px;
+    color: white;
     font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    animation-name: test;
-    animation-duration: 5s;
-    animation-iteration-count:infinite;
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.5;
 }
 
-h2 {
-    font-size: 30px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+
+h2, h3, h4, h5, h6, p {
+    color: white;
 }
 
-h3 {
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-}
-
-h4 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
 
 p {
     font-size: 12px;

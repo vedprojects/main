@@ -2,28 +2,17 @@
 
 html {
     background: #0d0f1b;
-    overflow-x:hidden;
-    line-height:1.5;
-    font-family: 'Inter', sans-serif;
 }
-
-body {
-    font-family: 'Inter', sans-serif;
-}
-
 
 h1 {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 4em;
     text-align: center;
-    line-height: 0.01;
+    line-height: 0.5;
     
 }
-
-
-
 
 h2 {
     color: white;
@@ -38,3 +27,4 @@ p {
     padding-left: 3%;
     padding-right: 3%;
 }
+

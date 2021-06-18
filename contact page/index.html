@@ -1,12 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Coming Soon</title>
+        <title>Contact</title>
         <link rel="shortcut icon" href="https://i.imgur.com/urP1DDz.png">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="/main version/sidebar stuff/w3style.css">
     </head>
     <body>
-        <h1>Coming soon</h1>
+
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="/main version/index.html" class="w3-bar-item w3-button">Menu</a>
+            <a href="/main version/main page/index.html" class="w3-bar-item w3-button">Homepage</a>
+            <a href="/main version/services page/index.html" class="w3-bar-item w3-button">Services</a>
+            <a href="/main version/contact page/index.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+        
+        <div id="main">
+        
+        <div class="w3-teal">
+            <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+            <h1>Contact</h1>
+            </div>
+        </div>
+        
+        <script src="/main version/sidebar stuff/script.js"></script>
+
+        <center>
         <div id="footer">
             <br>
             <p> We love our customers, so please feel free to drop an email for additional information.
@@ -17,9 +38,58 @@
                 <br> Landline Number : 01923573224 </p>
             </div>
         </div>
+        </center>
+        <br>
+
+        <center>
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+        </div>
+        </center>
+
         <br>
         <center>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.4713678926573!2d-0.4182036855993384!3d51.65120560294651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766af0a5ed1705%3A0x842fc4ddb367d1f8!2s432%20Whippendell%20Rd%2C%20Watford%20WD18%207PT!5e0!3m2!1sen!2suk!4v1623966515855!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.4713678926573!2d-0.4182036855993384!3d51.65120560294651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766af0a5ed1705%3A0x842fc4ddb367d1f8!2s432%20Whippendell%20Rd%2C%20Watford%20WD18%207PT!5e0!3m2!1sen!2suk!4v1623966515855!5m2!1sen!2suk" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </center>
     </body>
     

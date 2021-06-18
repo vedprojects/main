@@ -4,17 +4,34 @@
         <title> Ved Projects Consultants Ltd </title>
         <link rel="shortcut icon" href="https://i.imgur.com/xl5bMBr.png"/>
         <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" href="/main version/sidebar stuff/w3style.css">
     </head>
 
     </head>
     <body class="bg">
-        <div id="header">
-            <marquee direction="down" scrollamount="2.8"> <h1 style="color:rgb(77, 0, 0); text-align:center;"> <b> Welcome to Ved Projects Consultants Ltd </b> </h1> </marquee>
+
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="/main version/index.html" class="w3-bar-item w3-button">Menu</a>
+            <a href="/main version/main page/index.html" class="w3-bar-item w3-button">Homepage</a>
+            <a href="/main version/services page/index.html" class="w3-bar-item w3-button">Services</a>
+            <a href="/main version/contact page/index.html" class="w3-bar-item w3-button">Contact</a>
         </div>
+        
+        <div id="main">
+        
+        <div class="w3-teal">
+            <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+                <h1>Welcome to Ved Projects</h1>
+            </div>
+        </div>
+        
+        <script src="/main version/sidebar stuff/script.js"></script>      
+
+        
 
 
-
-        <br>
 
         
         <center>
@@ -26,6 +43,7 @@
                 }
             </script>
         </center>
+
         
         <div id="why">
             <center>
