@@ -20,12 +20,29 @@ h1 {
 }
 
 .smallbox {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background: #293055;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #2c366d;
     text-align: center;
     font-size: 16px;
     color: white;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #e0e2ee;
 }
 
 #footer {
